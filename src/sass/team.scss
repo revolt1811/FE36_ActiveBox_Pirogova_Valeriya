@@ -1,0 +1,89 @@
+#team{
+  padding: 114px 0;
+ 
+}
+.card_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 -15px;
+}
+.card{
+  margin: 0 15px;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  h4{
+    margin-bottom: 5.22px;
+    color: $_agate_grey;
+    text-transform: capitalize;
+    text-align: left;
+  }
+  h5{
+    text-transform: uppercase;
+    color: $_somon;
+    margin-bottom: 17.86px;
+  }
+  .card_inform{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    color: $_grey;
+    margin-bottom: 39.86px;
+  }
+ &:hover{
+  transform:scale(1.05);  
+ }
+ 
+}
+.card_img{
+  width: 255px;
+  height: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  img{
+    height: 100%;
+  }
+}
+.card_contact{
+  display: flex;
+  li{
+    width: 39px;
+    margin-left: 6px;
+    cursor: pointer;
+    &:first-child{
+      margin-left:0;
+    }
+    .fa-brands{
+      font-size: 24px;
+      line-height: 39px;
+      color: $_agate_grey;
+      border: 2px solid $_agate_grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition:0.3s;
+    }
+    .fa-facebook-f:hover{
+      color:$_facebook;
+      border-color: $_facebook;
+      transform:scale(1.1);
+    }
+    .fa-twitter:hover {
+      color:$_twitter;
+      border-color: $_twitter;
+      transform:scale(1.1);
+    }
+    .fa-linkedin:hover {
+      color: $_linkedin;
+      border-color: $_linkedin;
+      transform:scale(1.1);
+    }
+  }
+}

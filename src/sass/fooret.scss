@@ -1,0 +1,16 @@
+#footer{
+  padding: 24px 0;
+  background-color: $_agate_grey;
+}
+.footer_wrap{
+  width:370px;
+  margin: auto;
+  text-align: center;
+  h5{
+    text-transform:capitalize;
+    color: $_pale_sandy;
+    span{
+      color: $_white;
+    }
+  }
+}

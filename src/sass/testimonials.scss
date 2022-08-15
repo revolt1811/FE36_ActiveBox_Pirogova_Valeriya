@@ -1,0 +1,75 @@
+@import 'https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap';
+
+#testimonials{
+  padding: 0 0 54px;
+}
+
+.swiper {
+  width: 100%;
+  height: 490px;
+}
+.slide-wrap{
+  display: flex;
+}
+.slide-img{
+  width: 50%;
+  height: 490px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  img{
+  width: 100%;
+  height: 100%;
+  }
+}
+.slide-info{
+  width: 50%;
+  height: 490px;
+  position: relative;
+  background-color: $_pale_sandy_mask;
+  .paragrag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cardo', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    text-align: left;
+    p{
+      margin-bottom: 25px;
+      color: $_grey;
+    }
+  }
+  h6{
+    color: $_agate_grey;
+    text-align: left;
+  }
+}
+.swiper-button-next {
+  color: $_agate_grey;
+  opacity: 0.3;
+  transition: 0.2s;
+  &:hover{
+    opacity: 0.8;
+  }
+}
+.swiper-button-prev {
+  color: $_agate_grey;
+  opacity: 0.3;
+  transition: 0.2s;
+  &:hover{
+    opacity: 0.8;
+  }
+}
+  .swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  background-color: $_agate_grey;
+  margin-left: 25px;
+  &:first-child{
+    margin-left:0;
+}
+}

@@ -1,0 +1,59 @@
+//colar
+
+$_coffee_with_milk:#ab8e7c;
+$_pale_sandy: #d2c2a9;
+$_pale_pink: #fdcbc0;
+$_somon: #f5b399;
+$_agate_grey: #8b8c7a;
+$_white:#ffffff;
+$_mask:rgba(99, 80, 68, 0.6);
+$_grey:#333333;
+$_pale_sandy_mask: rgba(210, 194, 169, 0.6);
+$_facebook:#3b5998;
+$_twitter:#00acee;
+$_linkedin:#0e76a8 ;
+
+
+//fonts
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75.14px;
+  color: $_white;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.26px;
+}
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.22px;
+}
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28.18px;
+}
+h5{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+h6{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15.26px;
+  text-transform: uppercase;
+  text-align: center;
+}

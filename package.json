@@ -1,0 +1,30 @@
+{
+  "name": "fe36_activebox_pirogova_valeriya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "source": "./src/js/index.js",
+  "scripts": {
+    "start": "parcel",
+  "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revolt1811/FE36_ActiveBox_Pirogova_Valeriya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revolt1811/FE36_ActiveBox_Pirogova_Valeriya/issues"
+  },
+  "homepage": "https://github.com/revolt1811/FE36_ActiveBox_Pirogova_Valeriya#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.54.3"
+  },
+  "dependencies": {
+    "swiper": "^8.3.2"
+  }
+}

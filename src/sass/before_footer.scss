@@ -1,0 +1,90 @@
+#bfooter{
+  padding:71px 0;
+  background-color:$_pale_sandy_mask;
+}
+.bfooter__wrap{
+  margin: 0 -15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  h5{
+    margin-bottom: 29px;
+    font-weight: 700;
+    color: $_grey;
+  }
+  h6{
+    margin-bottom: 0;
+    font-weight: 400;
+    color: $_agate_grey;
+    margin-bottom: 0;
+    font-size:18px;
+    line-height: 21.13px;
+    text-transform: capitalize;
+  }
+}
+.bfooter_left{
+  margin: 0 15px;
+  width: 360px;
+  text-align: center;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+
+.bfooter__center{
+  margin: 0 15px;
+  width: 360px;
+  text-align: center;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.05);
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  li{
+    width: 39px;
+    margin-left: 6px;
+    cursor: pointer;
+    &:first-child{
+      margin-left:0;
+    }
+    .fa-brands{
+      font-size: 24px;
+      line-height: 39px;
+      color: $_agate_grey;
+      border: 2px solid $_agate_grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition:0.3s;
+    }
+    .fa-facebook-f:hover{
+      color:$_facebook;
+      border-color: $_facebook;
+      transform:scale(1.1);
+    }
+    .fa-twitter:hover {
+      color:$_twitter;
+      border-color: $_twitter;
+      transform:scale(1.1);
+    }
+    .fa-linkedin:hover {
+      color: $_linkedin;
+      border-color: $_linkedin;
+      transform:scale(1.1);
+    }
+  }
+  }
+}
+.bfooter__right{
+  margin: 0 15px;
+  width: 360px;
+  text-align: center;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.05);
+  }
+}

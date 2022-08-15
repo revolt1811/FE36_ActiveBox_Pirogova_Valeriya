@@ -1,0 +1,25 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap";
+@import "../sass/const.scss";
+@import "../sass/header.scss";
+@import "../sass/features.scss";
+@import "../sass/works.scss";
+@import "../sass/team.scss";
+@import "../sass/testimonials.scss";
+@import "../sass/download.scss";
+@import "../sass/before_footer.scss";
+@import "../sass/fooret.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  z-index: 3;
+  position: relative;
+}

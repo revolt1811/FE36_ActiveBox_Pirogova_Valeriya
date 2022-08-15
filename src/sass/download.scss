@@ -1,0 +1,34 @@
+#download {
+padding: 54px 0 114px;
+}
+.download__wrap{
+  text-align: center;
+  h3{
+    margin-bottom: 15px;
+    color: $_grey;
+  }
+  h5{
+    margin-bottom: 50.14px;
+    color: $_grey;
+  }
+  .btn{
+    margin: auto;
+    width: 369px;
+    background-color: $_pale_pink;
+    cursor: pointer;
+    transition: 0.3s;
+    h4{
+      color: $_white;
+      text-transform: uppercase;
+      line-height: 78px;
+    }
+    &:hover{
+    transform: scale(1.1);
+    background-color: $_somon;
+    }
+    &:active{
+    background-color: $_pale_pink;
+    box-shadow: 4px 4px 30 0 $_pale_pink;
+    }
+  }
+}
