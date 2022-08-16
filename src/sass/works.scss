@@ -2,12 +2,12 @@
 .works__wrap {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 340px);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 2px;
 
 }
 .works__item{
-  height: 340px;
+  height: calc(100vw/4);
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -23,9 +23,13 @@
     height: 100%;
     background-color: $_pale_sandy_mask;
     position: absolute;
-    display: inline-block;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 110px 0 129px;
     z-index: 2;
     opacity: 0;
     transition: 0.3s;

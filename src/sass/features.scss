@@ -7,13 +7,12 @@
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      &:hover{}
       .features__item{
         margin-bottom:100px;
       }
     }
     .features__item{
-      max-width: 360px;
+      max-width: 350px;
       margin: 0 15px;
       transition: 0.3s;
       &:hover{

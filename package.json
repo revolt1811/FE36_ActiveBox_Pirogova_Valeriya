@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
-  "source": "./src/js/index.js",
+  "source": "src/html/index.html",
   "scripts": {
     "start": "parcel",
-  "build": "parcel build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
